@@ -28,6 +28,8 @@ srand(time(0));
   	 	
   	 	}
   	cout <<"1." << (top/7)  ;
+  	cout <<"2." << (top/7)  ;
+  	cout <<"3." << (top/7)  ;
 
   }
 
