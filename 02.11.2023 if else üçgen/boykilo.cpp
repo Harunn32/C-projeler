@@ -10,8 +10,8 @@ setlocale(LC_ALL,"Turkish")	;
 // erkek : ideal_kilo = 50+2.3((boy/254)-60 kadýn .ideal_kilo= 45.5 + 2.3 *((boy/254)-60)
 char cinsiyet ;
 double ideal_kilo,boy;
-cin >>"Cinsiyetinizi girin";
-cin >> "Boyunuzu girin"
+cin >>"Cinsiyetinizi girin" ;
+cin >> "Boyunuzu girin"  ;
 if (cinsiyet=='E') 
 {
 	ideal_kilo= 50 + 2.3 * ((boy/2.54)-60);
